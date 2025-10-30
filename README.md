@@ -29,10 +29,6 @@ Ingest **24/7 live streams** from **Fox News**, **CNN**, and **MSNBC** (and any 
   "chyron_text": "BREAKING: $59M TO MIGRANT HOTELS",
   "graphic_screenshot_hash": "sha256:abc123..."
 }
-
----
-
-### **PART 2 of 3** – Paste Right After Part 1
 ```markdown
 ---
 
@@ -86,9 +82,7 @@ Ingest **24/7 live streams** from **Fox News**, **CNN**, and **MSNBC** (and any 
 - Claims with `0.3 < P < 0.7` confidence  
 - Live-updating evidence tracker (pulls new filings, tweets, etc.)
 
----
 
-### **PART 3 of 3** – Paste Last
 ```markdown
 ---
 
