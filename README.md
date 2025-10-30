@@ -6,6 +6,13 @@ Mission: Ingest 24/7 streams from Fox News, CNN, and MSNBC (plus any rebranded s
 
 Phase 1: Signal Capture (24/7 Ingestion Layer)
 
+Open-Source Stack (so anyone can replicate)
+ingest/        → FFmpeg + Tesseract
+claims/        → spaCy + Sentence-BERT
+evidence/      → Selenium scrapers + APIs
+graph/         → Neo4j
+ui/            → Svelte + D3
+
 
 
 
