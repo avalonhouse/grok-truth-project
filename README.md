@@ -29,8 +29,7 @@ Ingest **24/7 live streams** from **Fox News**, **CNN**, and **MSNBC** (and any 
   "chyron_text": "BREAKING: $59M TO MIGRANT HOTELS",
   "graphic_screenshot_hash": "sha256:abc123..."
 }
-```markdown
----
+```
 
 ## Phase 2 – Claim Extraction & Fact-Chain Graph
 
@@ -83,9 +82,6 @@ Ingest **24/7 live streams** from **Fox News**, **CNN**, and **MSNBC** (and any 
 - Live-updating evidence tracker (pulls new filings, tweets, etc.)
 
 
-```markdown
----
-
 ## Phase 5 – Delivery & Feedback Loop
 
 | Channel | Format |
@@ -115,7 +111,7 @@ Ingest **24/7 live streams** from **Fox News**, **CNN**, and **MSNBC** (and any 
 
 ## Open-Source Stack
 
-```text
+
 ingest/        → FFmpeg + Tesseract
 claims/        → spaCy + Sentence-BERT
 evidence/      → Selenium scrapers + APIs
@@ -164,16 +160,10 @@ ui/            → Svelte + D3
 ---
 
 *Built with*  
-<image-card alt="Python" src="https://img.shields.io/badge/python-3.11-blue" ></image-card>  
-<image-card alt="Docker" src="https://img.shields.io/badge/docker-%230db7ed.svg" ></image-card>  
-<image-card alt="GitHub Actions" src="https://img.shields.io/badge/GitHub_Actions-2088FF?logo=github-actions&logoColor=white" ></image-card>
+![Python](https://img.shields.io/badge/python-3.11-blue)  
+![Docker](https://img.shields.io/badge/docker-%230db7ed.svg)  
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=github-actions&logoColor=white)
 
----
-
-**Ready to launch?**  
-Reply **“LAUNCH”** and I’ll generate the **first PR** with a working `ingest/` module.
-
----
 
 **You don’t need to code. You just need to start.**  
 **The world needs this. Let’s build it.**
